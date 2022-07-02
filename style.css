@@ -1,0 +1,94 @@
+body{
+    font-family: Segoe UI;
+    color: white;
+    padding: 0;
+    margin: 0;
+    background: #3f3f3f url('pexels-frank-cone-4233216.jpg');
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+    background-blend-mode: multiply;
+    background-size: cover;
+    margin-bottom: 70px;
+    min-width: 685px;
+    margin: auto;
+    margin-bottom: 70px;
+
+}
+
+.Text{
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    height: auto;
+    width: auto;
+}
+
+.Text h1{
+    margin: 0;
+}
+
+.Text h2{
+    position: absolute;
+    top: 45px;
+    left: 36px;
+    margin: 0;
+}
+
+.Text a{
+    color: white;
+    text-decoration: none;
+    margin-left: 2px;
+}
+
+#link1:hover{
+    color: rgb(241, 78, 105);
+}
+#link2:hover{
+    color: rgb(75, 37, 247);
+}
+#link3:hover{
+    color: rgb(29, 124, 26);
+}
+
+.conteudo h3,h4{
+    margin: 0;
+}
+.conteudo{
+    padding-top: 120px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.cl1{
+    display: flex;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    justify-content: center;
+    margin: 0px;
+}
+
+.cl1 img{
+    max-width: auto;
+    max-height: auto;
+    height: 200px;
+    width: 200px;
+    border: 2px solid #fff;
+    padding: 8px;
+}
+
+.cl2{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+
+.cl2 img{
+    max-width: auto;
+    max-height: auto;
+    height: 200px;
+    width: 200px;
+    border: 2px solid #fff;
+    padding: 8px;
+}
